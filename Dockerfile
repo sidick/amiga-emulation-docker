@@ -1,4 +1,4 @@
-# syntax=docker/dockerfile:1.25
+# syntax=docker/dockerfile:1.28
 
 # Multi-app build: a shared `base` stage (KasmVNC + X + pulseaudio + generic
 # entrypoint) with one final stage per emulator, published as separate images.
